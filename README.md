@@ -12,14 +12,19 @@ Python-Homework/
 │   ├── before/
 │   │   ├── train.py
 │   │   └── infer.py
+│   │   └── ...
 │   └── after/
 │       ├── train.py
 │       └── infer.py
+│       └── ...
 ├── benchmark/
 │   └── run_benchmark.py
 └── results/
-    ├── benchmark_results.csv
-    └── graph/
+│  ├── benchmark_results.csv
+│   └── graph/
+│       ├── benchmark_train_average_time.png
+│       └── benchmark_infer_average_time.png
+└── report.pdf
 ```
 
 ## How to Run
